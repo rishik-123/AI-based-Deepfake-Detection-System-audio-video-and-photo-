@@ -104,11 +104,11 @@ const DashboardView = ({
           <div className="module-info">
             <div className="module-header-row">
               <h3>Video Detection Pipeline</h3>
-              <span className="badge-info">UI Ready</span>
+              <span className="badge-active">Active</span>
             </div>
-            <p>Temporal frame extraction and sequential frame-level CNN evaluation workflow preparation.</p>
+            <p>Temporal keyframe extraction and frame-by-frame PyTorch CNN deepfake evaluation.</p>
             <span className="jump-link">
-              View video workflow <ArrowRight size={14} />
+              Run video scan <ArrowRight size={14} />
             </span>
           </div>
         </div>

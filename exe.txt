@@ -6,3 +6,16 @@ FRONTEND CMD
 cd "c:\Users\Abcom\OneDrive\Desktop\SLA AND PROJECTS\AI SLA and projects\Deepfake-Media-Authenticity-Detection-System\frontend"
 npm install
 npm run dev
+
+Run these images for example 
+df_1.mp4_f*.jpg, 
+df_2.mp4_f*.jpg, 
+df_3.mp4_f*.jpg, 
+df_4.mp4_f*.jpg, 
+df_5.mov_f*.jpg
+
+
+ACCURACY AND OTHER METRICS VALUES
+Class	Precision	Recall (Sensitivity)	F1-Score	Support (Sample Count)
+Fake (Class 0)	75.55%	96.40% (241 / 250 detected)	84.71%	250 frames
+Real (Class 1)	95.16%	69.41% (177 / 255 detected)	80.27%	255 frames

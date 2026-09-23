@@ -1,0 +1,8 @@
+cd "c:\Users\Abcom\OneDrive\Desktop\SLA AND PROJECTS\AI SLA and projects\Deepfake-Media-Authenticity-Detection-System\backend"
+.\venv\Scripts\Activate.ps1
+python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
+
+FRONTEND CMD
+cd "c:\Users\Abcom\OneDrive\Desktop\SLA AND PROJECTS\AI SLA and projects\Deepfake-Media-Authenticity-Detection-System\frontend"
+npm install
+npm run dev

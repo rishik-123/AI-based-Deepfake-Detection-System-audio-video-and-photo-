@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Uploads and temporary files
+uploads/
+backend/uploads/
+*.tmp
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Node & Frontend Build
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# PyTorch Model Checkpoints (.pth files MUST NOT be committed to git)
+*.pth
+models/*.pth
+backend/models/*.pth
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
